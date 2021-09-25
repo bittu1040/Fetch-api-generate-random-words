@@ -1,0 +1,37 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	 width: 90%;
+	 margin: auto;
+	align-items: center;
+    /* border: 2px solid red; */
+}
+
+button{
+    background: #474787;
+	padding: 15px 20px;
+	color: white;
+	border: 5px solid red;
+	width: 30%;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #747474;
+}
+
+.card {
+
+    padding: 50px;
+	border: 1px solid gray;
+    margin: 30px;
+	font-family: sans-serif;
+	width: 40%;
+	text-align: center;
+	border-radius: 5px;
+	background: rgb(254, 254, 255);
+	word-wrap: break-word;
+
+}
+
